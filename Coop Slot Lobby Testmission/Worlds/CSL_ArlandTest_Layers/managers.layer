@@ -1,0 +1,36 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ coords 1345.045 39 2232.99
+}
+CSL_GameMode CSL_Lobby1 : "{AAC8EB0904CDC422}Prefabs/Systems/CSL_Lobby.et" {
+ coords 1340.346 39 2245.743
+ m_sFactionKey "US"
+ m_sGameMasterFactionKey "CIV"
+ m_PlayerFactionSlots {
+  CSL_SlottingGroup "{68B2D235B90066F0}" : "{239F1E6F8957BD97}Configs/SlottingGroups/Leader/PlatoonHQ.conf" {
+  }
+  CSL_SlottingGroup "{68B2D235BE41D351}" : "{909D87B82B6B9141}Configs/SlottingGroups/Squads/SquadLeader.conf" {
+   m_sCallsign "1-1"
+  }
+  CSL_SlottingGroup "{68B2D23587AE22B8}" : "{DA8E518D1CFCDC16}Configs/SlottingGroups/Squads/RifleTeam.conf" {
+   m_sCallsign "1-1A"
+  }
+  CSL_SlottingGroup "{68B2D2358790D821}" : "{C0DAEBF4A0AF1B7D}Configs/SlottingGroups/Squads/RifleTeamMED.conf" {
+   m_sCallsign "1-1B"
+  }
+  CSL_SlottingGroup "{68B2D23561443DC2}" : "{909D87B82B6B9141}Configs/SlottingGroups/Squads/SquadLeader.conf" {
+   m_sCallsign "1-2"
+  }
+  CSL_SlottingGroup "{68B2D2356188283B}" : "{C0DAEBF4A0AF1B7D}Configs/SlottingGroups/Squads/RifleTeamMED.conf" {
+   m_sCallsign "1-2A"
+  }
+  CSL_SlottingGroup "{68B2D23561F3C277}" : "{DA8E518D1CFCDC16}Configs/SlottingGroups/Squads/RifleTeam.conf" {
+   m_sCallsign "1-2B"
+  }
+ }
+ m_CivSlots {
+  CSL_SlottingGroup "{68B2D235AA24BC0C}" : "{6D527660FA675BEB}Configs/SlottingGroups/Zeus.conf" {
+  }
+ }
+ m_bRespawnEnabled 1
+ m_bWaveRespawn 1
+}

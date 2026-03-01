@@ -1,0 +1,21 @@
+$grp GenericEntity : "{CA6A4C9CA9CF4D61}Prefabs/Systems/SpawnPoints/PLAYERFACTION_GroupSpawn.et" {
+ {
+  components {
+   CSL_SpawnPointComponent "{68851C6F94D09DDA}" {
+    m_sCallsignOfGroupToSpawn "1-2"
+   }
+  }
+  coords 1359.934 39 2231.925
+ }
+ {
+  components {
+   CSL_SpawnPointComponent "{68851C6F94D09DDA}" {
+    m_sCallsignOfGroupToSpawn "1"
+   }
+  }
+  coords 1344.672 39 2255.101
+ }
+ {
+  coords 1351.973 39 2243.437
+ }
+}

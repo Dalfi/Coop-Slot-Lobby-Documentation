@@ -1,0 +1,8 @@
+GenericEntity : "{57CD67334E221E06}Prefabs/Systems/SpawnPoints/CIV_GroupSpawn.et" {
+ components {
+  CSL_SpawnPointComponent "{68851C6F94D09DDA}" {
+   m_sCallsignOfGroupToSpawn "GODFATHER"
+  }
+ }
+ coords 1331.119 39 2269.34
+}
