@@ -12,6 +12,9 @@
   - ability to send hints to players
   - teleport system
   - healing players
+- Markers that can be placed in Missions in the Workbench
+  - Spawn Markers
+  - Objective Markers
 
 ### Dependencys:
 - COALITION VON
